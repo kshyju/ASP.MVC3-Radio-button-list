@@ -12,7 +12,7 @@ namespace ViewModels
         public string QuestionText { set; get; }
         public List<Answer> Answers { set; get; }
         [Required]
-        public int SelectedAnswer { set; get; }
+        public string SelectedAnswer { set; get; }
         public Question()
         {
             Answers = new List<Answer>();
